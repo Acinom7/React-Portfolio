@@ -22,22 +22,46 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <NavLink to="./" end className="nav-link">
+                <NavLink
+                  to="/"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="./" end className="nav-link">
+                <NavLink
+                  to="about"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
                   About
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="./" end className="nav-link">
+                <NavLink
+                  to="projects"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
                   Projects
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="./" end className="nav-link">
+                <NavLink
+                  to="contact"
+                  end
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
                   Contact
                 </NavLink>
               </li>
