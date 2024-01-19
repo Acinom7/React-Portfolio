@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Celestial Chronicles",
-    "image": "src/assets/images/CelestialChronicles.png",
+    "image": "images/CelestialChronicles.png",
     "description": "CelestialChronicles crafts a personalized cosmic adventure, revealing a NASA image from your birth day. Uncover unique birthdate facts in this exclusive celestial experience",
     "link": "https://github.com/EXG13/CelestialChronicles"
   },
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Password Generator",
-    "image": "src/assets/images/password-generator.png",
+    "image": "images/password-generator.png",
     "description": "Password generator using prompts. Users are prompted to choose a password between 8 and 128 characters",
     "link": "https://github.com/Acinom7/Password-Generator"
   },
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Readme-Generator",
-    "image": "src/assets/images/Readme.png",
+    "image": "images/Readme.png",
     "description": "Command-line application that dynamically generates a professional README.md file from a user's input using Node.js",
     "link": "https://github.com/Acinom7/readme-generator"
   }

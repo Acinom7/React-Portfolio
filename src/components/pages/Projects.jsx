@@ -2,7 +2,7 @@ import React from "react";
 import projectsInfo from "..//../projects.json";
 
 function Projects() {
-  console.log(projectsInfo);
+  // console.log(projectsInfo);
 
   return (
     <div>
